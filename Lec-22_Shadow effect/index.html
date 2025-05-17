@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* root custom variable for use all place in code  */
+        :root{
+            --primar:aqua;
+            --custom-width: 330px;
+        }
+        img{
+            width: 200px;
+            height: auto;
+        }
+        .container{
+            background-color: beige;
+            height: 650px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            /* background-color:aqua; */
+            background-color: var(--primar);
+
+            width: var(--custom-width);
+            height: 330px;
+            border: 3px solid brown;
+            margin: 10px;
+            padding: 10px;
+            /* x axis,y axis, blur, spreadness, colour */
+            /* use of inset for inside shadow adding */
+            /* box-shadow: 7px 7px 15px 5px brown; */
+
+            /* box-shadow: inset 7px 7px 15px 5px brown; */
+            /* multiple shadow by using coma */
+
+            box-shadow: 7px 7px 15px 5px rgba(69, 8, 38, 0.691) ,7px 7px 15px 5px rgb(29, 70, 118) ;
+
+        }
+        #head1{
+            text-shadow: 2px 3px 1px rgb(179, 155, 155);
+            /* text-shadow: white 2px 3px 1px; */
+            /* text-shadow: white 5px 6px; */
+            /* text-shadow: 12px 13px;  */
+            /* by default shadow colour  */
+            /* color: rgb(84, 91, 97); */
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="Noyon.jpg" alt="Noyon">
+            <h2 id="head1">Welcome guys</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis expedita ut quidem aut at, excepturi minima velit. Tenetur iusto expedita ipsa, doloribus magni eius mollitia?</p>
+
+        </div>
+    </div>
+</body>
+</html>

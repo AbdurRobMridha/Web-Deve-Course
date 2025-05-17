@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another Cards</title>
+    <style>
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: #689ab0;
+            background: linear-gradient(90deg, rgb(146, 177, 190) 0%, rgba(140, 153, 125, 0.8) 44%, rgba(153, 153, 142, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+        .card{
+            width: 400px;
+            height: 600px;
+            background-color: #fff;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+
+        }
+        .card img{
+            width: 100%;
+            height: 30;
+            border-top-left-radius:15px ;
+            border-top-right-radius: 15px;
+
+
+        }
+        .textbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* gap: 10px; */
+            /* padding: 20px; */
+            width: 80%;
+            text-align: center;
+        }
+        #amountbox{
+
+            width: 90%;
+            height: 10%;
+            background-color: #8c5858;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+             padding-right: 12px;
+            padding-left: 12px; 
+
+        }
+        .leftBox{
+            display: flex;
+            /* width: fit-content; */
+            gap: 15px;
+            height: 100%;
+            align-items: center;
+
+
+        }
+        
+
+        .imageBox img{
+            height: 30px;
+            width: 30px;
+            border-radius: 12px;
+        }
+        #textAmountBox{
+            font-size: larger;
+            color: rgb(42, 42, 39);
+            font-weight: bold;
+        }
+        #paymebtButton{
+            width: 80%;
+            height: 9%;
+            background-color:rgb(74, 74, 120);
+            border-radius: 10px;
+            color: aliceblue;
+            font-weight: bold;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            
+        }
+        .cancelBox{
+            text-decoration: none;
+            color:rgb(209, 194, 194) ;
+            font-weight: bold;
+            font-size: larger;
+            background-color:rgb(237, 198, 198);
+            box-shadow: rgba(131, 101, 101, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card">
+            <img src="images.jpg" alt="Image">
+            <div class="textbox">
+               <h2>Order summary</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit molestiae, tempore nam quam dolorum fuga amet distinctio tenetur cumque totam?</p>
+
+            </div>
+            <div id="amountbox">
+                <div class="leftBox">
+                    <div class="imageBox">
+                        <img src="MusicImage.jpg" alt="Music">
+                    </div>
+                    <div id="textAmountBox">
+                        <p>Amount  <br >
+                            $999/year
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="rightBox">
+                    <a href="#">Change</a>
+                </div>
+            </div>
+
+            <button id="paymebtButton">
+                Proceed to Payment
+            </button>
+
+            <div class="cancelBox">
+                <a href="#">Cancel Order</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>

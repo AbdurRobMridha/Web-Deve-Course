@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job application form</title>
+  </head>
+  <body>
+    <form action="">
+      <h2>Job Application</h2>
+      <label for="Name">Name:</label>
+      <br />
+      <input type="text" name="Name" id="Name" />
+      <br />
+      <label for="Email">Email:</label>
+      <br />
+      <input type="email" name="Email" id="Email" />
+      <br />
+      <label for="Phone">Phone:</label>
+      <br />
+      <input type="tel" name="Phone" id="Phone" />
+      <br />
+      <br>
+<label for="file">Resume File:</label>
+<br>
+      <input type="file" name="file" id="file">
+      <br><br>
+        <label for="counter">Experience of years: </label>
+       <input type="number" name="number" id="number" min="0" max="50">
+<br><br>
+       <fieldset>
+        <legend>Skills:</legend>
+        <input type="checkbox" name="HTML" id="HTML" />
+        <br />
+        <label for="HTML">HTML: </label>
+        <br />
+        <input type="checkbox" name="CSS" id="CSS" />
+        <br />
+        <label for="CSS">CSS: </label>
+        <br />
+        <input type="checkbox" name="JavaScript" id="JavaScript" />
+        <br />
+        <label for="JavaScript">JavaScript: </label>
+        <br />
+      </fieldset>
+      <br>
+<label for="education">Highest Education: </label>
+      <select name="education" id="education">
+        <option value="School">High School</option>
+        <option value="college">College</option>
+        <option value="varsity">Varsity</option>
+        <option value="phd">PhD</option>
+
+      </select>
+      <br>
+
+      <fieldset>
+        <legend>Availability</legend>
+        <br>
+        
+        <input type="radio" name="Full Time" id="time"> <br>
+        <label for="time">Part Time</label>
+        <br>
+        <input type="radio" name="Part Time" id="time1">
+        <br>
+        <label for="time1">Full Time</label>
+      </fieldset>
+      <br>
+      <p>Additional comments: </p>
+      <textarea name="textarea" id="textarea" rows="10" cols="50" placeholder="Enter your text.."></textarea>
+      <button>Submit Application</button>
+    </form>
+  </body>
+</html>

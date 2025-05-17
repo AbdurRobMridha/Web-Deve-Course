@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards 2</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vw;
+            background-image: linear-gradient( 180.4deg,  rgb(61, 109, 141) 1%, rgb(56, 119, 135) 91.4% );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            width: 700px;
+            height:330px ;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+
+        }
+        .rightBox{
+            background-color: #9e7575;
+            width: 50%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .rightBox img{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 100%;
+            
+        }
+        .leftBox{
+            display: flex;
+            flex-direction: column;
+           align-items:space-between;
+            width: 60%;
+            height: 100%;
+            /* gap: 5px; */
+            background-color: rgb(90, 27, 90);
+        }
+        .text{
+            color: beige;
+            font-weight: bold;
+            padding-left: 40px;
+           padding-top: 15px;
+            text-align: center;
+            margin-left: 10px;
+            width: 70%;
+            font-size: larger;
+        }
+         .para{
+            font-size: small;
+            color:white;
+            /* font-weight: bold; */
+            /* padding: 40px; */
+            padding-left: 40px;
+            margin-left: 10px;
+            width: 70%;
+
+        }
+        .media {
+    display: flex;
+    align-items: center;
+    height: 25%;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-right: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+
+    gap: 50px; /* ✅ Add this */
+    justify-content:space-between /* ✅ Change this */
+}
+
+        .media h3{
+            font-size: 25px;
+            margin: 0;
+            line-height: 1;
+        }
+        .media p{
+            padding-bottom: 5;
+            margin-top: 2px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="box">
+            <div class="leftBox">
+                <div class="text">
+                    <h2>Get insights that help your business grow</h2>
+
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ex cupiditate saepe non provident sit molestias quibusdam pariatur quaerat dolore.</p>
+
+                </div>
+                <div class="media">
+                    <div class="comments">
+                        <h3>10k+</h3>
+                        <p>comments</p>
+                    </div>
+                    <div class="paidUser">
+                        <h3>214</h3>
+                       <p> Paid Users</p>
+                    </div>
+                    <div class="views">
+                        <h3>12M+</h3>
+                        <p>Views</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="rightBox">
+                <img src="two.jpg" alt="Technology">
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+</body>
+</html>

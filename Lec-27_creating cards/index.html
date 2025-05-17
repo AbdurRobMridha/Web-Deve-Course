@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cards</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        min-height: 1200px;
+        background: #397087;
+        background: linear-gradient(
+          90deg,
+          rgba(160, 152, 163, 0.42) 0%,
+          rgba(139, 155, 122, 0.8) 44%,
+          rgb(194, 209, 222) 100%
+        );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        width: 360px;
+        height: 600px;
+        background-color: #fff;
+        border-radius: 20px;
+        display: felx;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+      .card img {
+        display: flex;
+        padding: 40px;
+        margin: 20px;
+        margin-left: 33px;
+        height: 50%;
+        width: auto;
+        border-radius: 15px;
+        /* // padding-left:47px ; */
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(68, 80, 108);
+      }
+      .card h2 {
+        font-weight: bold;
+        font-size: 1.6rem;
+        margin-left: 29px;
+      }
+      .card p {
+        font-size: 1.2rem;
+        margin: 15px;
+        margin-left: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 160px;
+        font-weight: bold;
+        color: rgba(82, 58, 105, 0.922);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img src="phnLogo.jpg" alt="QR code" />
+        <h2>Improve you front end skills buy developing Project</h2>
+        <p>Scan for Contacting with us please..</p>
+      </div>
+    </div>
+
+    <script src="index.css"></script>
+  </body>
+</html>

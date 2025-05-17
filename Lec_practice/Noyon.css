@@ -1,0 +1,18 @@
+h1{
+    /* font-size: larger; */
+    font-style: italic;
+    text-align: center;
+    font-weight: 500;
+}
+#FirstId{
+    font-variant: small-caps;
+    text-align: left;
+    /* font-synthesis-style:var(font-size:initial) ; */
+  font-stretch:wider ;
+  font-size: xx-large;
+  background-color: rgba(231, 250, 215, 0.945);
+}
+#SecodId{
+    color: rgb(45, 45, 152);
+    background-color: rgb(83, 139, 26);
+}
